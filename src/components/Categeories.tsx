@@ -14,7 +14,7 @@ const Categeories = () => {
       <div className="bg-pink-100   rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
        src="/images/image5.png"
-       alt="card"
+       alt="card1"
        width={312}
        height={424}
        className=' rounded-md '/>
@@ -29,7 +29,7 @@ const Categeories = () => {
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0 ">
        <Image
        src="/images/image6.png"
-       alt="card"
+       alt="card2"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -44,7 +44,7 @@ const Categeories = () => {
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
        src="/images/image7.png"
-       alt="card"
+       alt="card3"
        width={312}
        height={377}
        className=' rounded-md '/>
