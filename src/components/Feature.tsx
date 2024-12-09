@@ -13,8 +13,8 @@ const Feature = () => {
       {/* <!-- Card 1 --> */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image2.png"
-       alt="card"
+       src="/images/card1.png"
+       alt="card1"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -32,8 +32,8 @@ const Feature = () => {
       {/* grid card 2  */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0 ">
        <Image
-       src="/images/image.png"
-       alt="card"
+       src="/images/card2.png"
+       alt="card2"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -51,8 +51,8 @@ const Feature = () => {
  {/* grid card 3  */}
  <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image3.png"
-       alt="card"
+       src="/images/card3.png"
+       alt="card3"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -70,8 +70,8 @@ const Feature = () => {
        {/* grid card 4  */}
        <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image4.png"
-       alt="card"
+       src="/images/card4.png"
+       alt="card4"
        width={312}
        height={377}
        className=' rounded-md '/>

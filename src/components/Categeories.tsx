@@ -5,16 +5,16 @@ const Categeories = () => {
   return (
     <div>
       <main className='w-full lg:h-[461px] h-[1300px] md:h-[500px]    lg:px-[200px] md:px-0  flex justify-between items-end mt-10 '>
-       <div className='w-[1321px] lg:h-[461px]  h-[1300px] md:h-[500px]  lg:gap-5   '>
+       <div className='w-[1321px] lg:h-[461px]  h-[1300px] md:h-[500px]  lg:gap-5  '>
        <h1 className="text-3xl font-bold text-[#272343] mt-5 px-5">Top Categories</h1>
 
        {/* <!-- Card Grid --> */}
     <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 h-[310px] gap-4 md:px-10 lg:px-2 px-5 py-7 ">
       {/* <!-- Card 1 --> */}
-      <div className="bg-pink-100   rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
+      <div className="bg-pink-200   rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image5.png"
-       alt="card1"
+       src="/images/card5.png"
+       alt="card5"
        width={312}
        height={424}
        className=' rounded-md '/>
@@ -28,7 +28,7 @@ const Categeories = () => {
       {/* grid card 2  */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0 ">
        <Image
-       src="/images/image6.png"
+       src="/images/card6.png"
        alt="card2"
        width={312}
        height={377}
@@ -43,7 +43,7 @@ const Categeories = () => {
       {/* grid card 3  */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image7.png"
+       src="/images/card7.png"
        alt="card3"
        width={312}
        height={377}

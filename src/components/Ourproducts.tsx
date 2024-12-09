@@ -7,8 +7,8 @@ const Ourproducts = () => {
     <div>
       
 
-      <main className='w-full lg:h-[461px] h-[2000px] md:h-[900px]    lg:px-[200px] md:px-0  flex justify-between items-end mt-10 '>
-       <div className='w-[1321px] lg:h-[461px]  h-[2000px] md:h-[900px]  lg:gap-5  '>
+      <main className='w-full lg:h-[800px] h-[3700px] md:h-[900px]    lg:px-[200px] md:px-0  flex justify-between items-end mt-10'>
+       <div className='w-[1321px] lg:h-[800px]  h-[3700px] md:h-[900px]  lg:gap-5 '>
        <h1 className="text-3xl font-bold text-[#272343] mt-5 px-5 text-center">Our Products</h1>
        
     {/* <!-- Card Grid --> */}
@@ -16,8 +16,8 @@ const Ourproducts = () => {
       {/* <!-- Card 1 --> */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image2.png"
-       alt="card"
+       src="/images/card1.png"
+       alt="card1"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -35,8 +35,8 @@ const Ourproducts = () => {
       {/* grid card 2  */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0 ">
        <Image
-       src="/images/image.png"
-       alt="card"
+       src="/images/card2.png"
+       alt="card2"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -54,8 +54,8 @@ const Ourproducts = () => {
  {/* grid card 3  */}
  <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image3.png"
-       alt="card"
+       src="/images/card3.png"
+       alt="card3"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -73,8 +73,8 @@ const Ourproducts = () => {
        {/* grid card 4  */}
        <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image4.png"
-       alt="card"
+       src="/images/card4.png"
+       alt="card4"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -97,8 +97,8 @@ const Ourproducts = () => {
       {/* <!-- Card 1 --> */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image8.png"
-       alt="card"
+       src="/images/card8.png"
+       alt="card8"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -116,8 +116,8 @@ const Ourproducts = () => {
       {/* grid card 2  */}
       <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0 ">
        <Image
-       src="/images/image9.png"
-       alt="card"
+       src="/images/card9.png"
+       alt="card9"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -135,8 +135,8 @@ const Ourproducts = () => {
  {/* grid card 3  */}
  <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image10.png"
-       alt="card"
+       src="/images/card10.png"
+       alt="card10"
        width={312}
        height={377}
        className=' rounded-md '/>
@@ -154,8 +154,8 @@ const Ourproducts = () => {
        {/* grid card 4  */}
        <div className="bg-white  rounded-top-[20px] rounded-t-[20px] mt-5 md:mt-0 mx-auto lg:mx-0">
        <Image
-       src="/images/image2.png"
-       alt="card"
+       src="/images/card1.png"
+       alt="card1"
        width={312}
        height={377}
        className=' rounded-md '/>

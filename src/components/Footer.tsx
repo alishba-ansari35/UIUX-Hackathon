@@ -10,13 +10,13 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-        <main className='w-full lg:h-[500px] h-[1000px] md:h-[500px]   lg:px-[200px] md:px-7  flex justify-between items-end lg:mt-96 md:mt-[900px] mt-[1500px]  '>
-        <div className='w-[1321px] lg:h-[500px]  h-[1000px] md:h-[500px]  border-t-2 '>
+        <main className='w-full lg:h-[500px] h-[1500px] md:h-[500px]    lg:px-[200px] md:px-7  flex justify-between items-end lg:mt-[100px] md:mt-[900px]  mt-72'>
+        <div className='w-[1321px] lg:h-[500px]  h-[1500px] md:h-[500px]  border-t-2 '>
 
             <div className='w-full h-[400px]  flex flex-col md:flex-row gap-2 '>
-            <div className='w-full h-[400px] '>
+            <div className='w-full h-[400px]'>
                 <div className='w-full h-[300px]  mt-10 '>
-                    <div className='flex ml-3'>
+                    <div className='flex  justify-center items-center'>
                         <Image
                         src="/images/logo.png"
                         alt="logo"
@@ -27,7 +27,7 @@ const Footer = () => {
                     <p className='text-[16px] leading-[24px] mt-5 text-center text-[#272343]'>Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.
                     Cras egestas purus </p>
 
-                    <div className='w-full h-10  mt-5 flex pl-5 lg:pl-0'>
+                    <div className='w-full h-10  mt-7 flex  lg:pl-0  justify-center items-center'>
                     <FaFacebook  className='text-3xl my-1 ml-1'/>
                     <FaTwitter  className='text-3xl my-1 ml-4' />
                     <FaInstagram className='text-3xl my-1 ml-4'/>
@@ -72,6 +72,7 @@ const Footer = () => {
                 </div>
                 </div>
             </div>
+
             </div>
             </main>
       
