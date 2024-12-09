@@ -5,14 +5,33 @@ const Items = () => {
   return (
     <div>
 
-<main className='w-full lg:h-[461px] h-[900px] md:h-[500px]    lg:px-[200px] md:px-0  flex justify-between items-end mt-10 '>
-<div className='w-[1321px] lg:h-[461px]  h-[900px] md:h-[500px]    flex flex-col lg:flex-row  '>
-      <div className=" grid grid-cols-1 gap-8 lg:grid-cols-[auto_1fr] px-5">
+<main className='w-full lg:h-[461px] h-[900px] md:h-[500px] lg:px-[200px] md:px-0  flex justify-between items-end mt-2  '>
+<div className='w-[1321px] lg:h-[461px]  h-[900px] md:h-[500px]    flex flex-col lg:flex-row   flrex px-5 lg-px-0'>
+
+
+
+<div className='w-full h-[450px]  flex flex-col lg:flex-row md:flex-row gap-7 '>
+
+<div  className='w-full h-[440px]  mt-5 '>
+  {/* image div */} 
+<Image src="/images/card3.png" alt="card3" width={450} height={4500}/>
+</div>
+
+<div  className='w-full h-[440px] mt-5  '>
+  {/* image div */} 
+<Image src="/images/card10.png" alt="card10" width={450} height={4500}/>
+</div>
+
+</div>
+
+
+
+      {/* <div className=" grid grid-cols-1 gap-8 lg:grid-cols-[auto_1fr] px-5"> */}
 
         {/* Images section */}
-        <div className="flex flex-col md:flex-row items-center gap-8">
+        {/* <div className="flex flex-col md:flex-row items-center gap-8"> */}
           {/* Orange chair (left side) */}
-          <div className="w-full md:w-[48%]">
+          {/* <div className="w-full md:w-[48%]">
             <Image
               src="/images/card3.png"
               alt="card3"
@@ -21,10 +40,10 @@ const Items = () => {
               height={500}
               priority
             />
-          </div>
+          </div> */}
 
           {/* Other chairs (right side) */}
-          <div className="grid grid-cols-2 gap-4 w-full md:w-[60%] lg:w-[48%]">
+          {/* <div className="grid grid-cols-2 gap-4 w-full md:w-[60%] lg:w-[48%]">
             <div className="aspect-square">
               <Image
                 src="/images/card4.png"
@@ -63,7 +82,7 @@ const Items = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
     
     </div>

@@ -7,7 +7,7 @@ const Ourproducts = () => {
     <div>
       
 
-      <main className='w-full lg:h-[800px] h-[3700px] md:h-[900px]    lg:px-[200px] md:px-0  flex justify-between items-end mt-10'>
+      <main className='w-full lg:h-[800px] h-[3700px] md:h-[900px]    lg:px-[200px] md:px-0  flex justify-between items-end mt-10 '>
        <div className='w-[1321px] lg:h-[800px]  h-[3700px] md:h-[900px]  lg:gap-5 '>
        <h1 className="text-3xl font-bold text-[#272343] mt-5 px-5 text-center">Our Products</h1>
        
